@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 def app():
-    model = joblib.load('Final_model.h5')
+    model = joblib.load('Final_Model.h5')
     st.set_page_config(page_title="Car Prediction ")
     st.title("Used Car Prediction")
     st.header("Epsilon Diploma Project")
